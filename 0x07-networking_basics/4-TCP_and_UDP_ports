@@ -1,0 +1,5 @@
+#!/usr/bin/enev bash
+#displays listerning ports. includes socket too
+# + as the PID and name of the program to watch each socket belongs.
+
+netstat -l --program
