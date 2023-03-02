@@ -1,4 +1,4 @@
-#!/usr/bin/enev bash
+#!/usr/bin/env bash
 #displays listerning ports. includes socket too
 # + as the PID and name of the program to watch each socket belongs.
 
