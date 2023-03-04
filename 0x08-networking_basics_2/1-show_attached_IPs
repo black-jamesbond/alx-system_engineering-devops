@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+# to find the ip address
+
 ip addr | grep 'inet ' | grep -v '127.0.0.1' | awk '{print $2}' | cut -f1 -d'/'
