@@ -5,16 +5,7 @@ if [ $# -lt 4 ]; then
     exit 1
 fi
 
-file_path=$1
-ip=$2
-username=$3
-ssh_key_path=$4
-
-
-export SCP_OPTIONS="-o StrictHostKeyChecking=no"
-
-
-scp -i "$ssh_key_path" "$file_path" "$username@$ip:~/"
+scp -o StrictHostKeyChecking=no -i "$4" "$1" "$3@$2":~/
 
 if [ $? -eq 0 ]; then
     echo "File transfer successful!"
