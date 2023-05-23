@@ -1,4 +1,4 @@
-Host <server_host>
+Host 100.26.166.1
     IdentityFile ~/.ssh/school
     PreferredAuthentications publickey
     PasswordAuthentication no
