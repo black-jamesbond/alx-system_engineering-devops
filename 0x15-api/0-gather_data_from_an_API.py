@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Using https://jsonplaceholder.typicode.com
-returns info about employee TODO progress
+returns info about employee todo progress
 Implemented using recursion
 """
 
