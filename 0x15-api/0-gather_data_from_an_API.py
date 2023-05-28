@@ -10,7 +10,7 @@ import sys
 
 api = "https://jsonplaceholder.typicode.com/"
 id = int(sys.argv[1])
-
+"""REST API url"""
 if __name__ == "__main__":
     users_data = dict(requests.get("{}users/{}".format(api, id)).json())
     todo_list = list(requests.get("{}todos".format(api)).json())
